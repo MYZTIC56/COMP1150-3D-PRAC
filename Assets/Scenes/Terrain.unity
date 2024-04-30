@@ -463,7 +463,7 @@ Transform:
   m_GameObject: {fileID: 789068912}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.9978589, z: -0, w: -0.065403916}
-  m_LocalPosition: {x: 216.2, y: 142.4, z: 582.2}
+  m_LocalPosition: {x: 213.41, y: 142.4, z: 582.2}
   m_LocalScale: {x: 1, y: 1, z: 0.50675}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -490,6 +490,55 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!1 &852525836
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 852525838}
+  - component: {fileID: 852525837}
+  m_Layer: 7
+  m_Name: PostProcessor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &852525837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 852525836}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b9a305e18de0c04dbd257a21cd47087, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sharedProfile: {fileID: 11400000, guid: a1590873af86f524ea4bfdf17eece2c3, type: 2}
+  isGlobal: 1
+  blendDistance: 0
+  weight: 1
+  priority: 0
+--- !u!4 &852525838
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 852525836}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 187.8886, y: 125.15729, z: 463.4251}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &943614454
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1205,3 +1254,4 @@ SceneRoots:
   - {fileID: 943614454}
   - {fileID: 747471392}
   - {fileID: 1181662502}
+  - {fileID: 852525838}
