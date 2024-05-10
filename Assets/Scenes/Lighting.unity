@@ -318,13 +318,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 687980554}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.6068588, y: 0.54785097, z: 0.13145529, w: 0.56062585}
+  m_LocalRotation: {x: 0.6071597, y: 0.5491379, z: 0.13005973, w: 0.55936503}
   m_LocalPosition: {x: 193.82, y: 6.780377, z: 460.14}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 32.439, y: 113.523, z: 74.264}
+  m_LocalEulerAnglesHint: {x: 32.439, y: 113.786, z: 74.264}
 --- !u!108 &687980556
 Light:
   m_ObjectHideFlags: 0
@@ -820,6 +820,7 @@ GameObject:
   - component: {fileID: 1578130131}
   - component: {fileID: 1578130130}
   - component: {fileID: 1578130129}
+  - component: {fileID: 1578130133}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -913,6 +914,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1578130133
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1578130128}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 4d226d95e0d64254a99b163c1bae45ca, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1721933096
 GameObject:
   m_ObjectHideFlags: 0
